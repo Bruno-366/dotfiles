@@ -13,3 +13,5 @@ My dotfiles for [ArchLinux]
 [.xinitrc]: ./.xinitrc
 [.bashrc]: ./.bashrc
 [.bash_profile]: ./.bash_profile
+
+Use ALSA instead of pulse-audio
