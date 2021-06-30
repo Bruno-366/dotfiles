@@ -16,6 +16,6 @@ My dotfiles for [ArchLinux]
 [`.bash_profile`]: ./.bash_profile
 [`st`]: https://st.suckless.org/
 [`surf`]: https://surf.suckless.org/
-[`ranger`]:a https://ranger.github.io/
+[`ranger`]: https://ranger.github.io/
 
 Use ALSA instead of pulse-audio
