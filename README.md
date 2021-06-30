@@ -19,3 +19,4 @@ My dotfiles for [ArchLinux]
 [`ranger`]: https://ranger.github.io/
 
 Use ALSA instead of pulse-audio
+Have two settings for APL: in .bashrc and .xinit
