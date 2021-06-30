@@ -14,8 +14,6 @@ alias suspend="systemctl suspend"
 alias shutdown="shutdown -P now"
 alias apl="TERM=xterm apl --PW 132"
 
-#ps -e --sort -%mem -o '%C %U %G : %a' | head
-#ps -e --sort -%mem -o %cpu,%mem,cmd | head
 export ALSA_CARD="Headset"
 
 
