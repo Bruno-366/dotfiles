@@ -1,4 +1,6 @@
 # dotfiles
+:toc: preamble
+
 My dotfiles for [ArchLinux]
 
 ## Desktop Enviroment
@@ -18,7 +20,7 @@ My dotfiles for [ArchLinux]
 [`surf`]: https://surf.suckless.org/
 [`ranger`]: https://ranger.github.io/
 
-## Sound
+### Sound
 
 Use ALSA instead of pulse-audio  
 
@@ -37,18 +39,18 @@ ALSA_CARD=Headset surf # if you want to use the headset
 
 Unfortunately, you can't change the enviroment variables of an already running process.
 
-## APL
+### APL
 
 Have two settings for APL: in .bashrc and [`.xinitrc`]
 
-## Shutdown, Poweroff, Suspend, Hibernate etc.
+### Shutdown, Poweroff, Suspend, Hibernate etc.
 
 ```sh
 # use poweroff instead of:
 # alias shutdown="shutdown -P now"
 ```
 
-# Finding modified files
+## Finding modified files
 
 ```sh
 pacman -Qkk
