@@ -41,3 +41,9 @@ Unfortunately, you can't change the enviroment variables of an already running p
 
 Have two settings for APL: in .bashrc and [`.xinitrc`]
 
+## Shutdown, Poweroff, Suspend, Hibernate etc.
+`
+```sh
+# use poweroff instead of:
+# alias shutdown="shutdown -P now"
+```
