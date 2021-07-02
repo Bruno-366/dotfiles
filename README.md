@@ -11,9 +11,9 @@ My dotfiles for [ArchLinux]
    3. [`surf`]
 
 [ArchLinux]: http://archlinux.org/
-[`.xinitrc`]: ./.xinitrc
-[`.bashrc`]: ./.bashrc
-[`.bash_profile`]: ./.bash_profile
+[`.xinitrc`]: ./home/.xinitrc
+[`.bashrc`]: ./home/.bashrc
+[`.bash_profile`]: ./home/.bash_profile
 [`st`]: https://st.suckless.org/
 [`surf`]: https://surf.suckless.org/
 [`ranger`]: https://ranger.github.io/
