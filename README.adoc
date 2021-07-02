@@ -1,30 +1,30 @@
 # dotfiles
 :toc: preamble
+:ArchLinux:        link:http://archlinux.org/[ArchLinux]
+:xinitrc:          link:./home/.xinitrc[.xinitrc]
+:bashrc:           link:./home/.bashrc[.bashrc]
+:bash_profile:     link:./home/.bash_profile[.bash_profile]
+:st:               link:https://st.suckless.org/[st]
+:surf:             link:https://surf.suckless.org/[surf]
+:ranger:           link:https://ranger.github.io/[ranger]
 
-My dotfiles for [ArchLinux]
+My dotfiles for {ArchLinux}
 
 ## Desktop Enviroment
 
-0. login `bash` shell with [`.bash_profile`]
-1. `startx` (wrapper around `xinit`) with file [`.xinitrc`]
+0. login `bash` shell with `{bash_profile}`
+1. `startx` (wrapper around `xinit`) with file `{xinitrc}`
 2. i3wm with file ???
-   1. [`st`] with non-login `bash` shell using [`.bashrc`] 
-   3. [`ranger`] 
-   4. [`surf`]
+   1. `{st}` with non-login `bash` shell using `{bashrc}` 
+   3. `{ranger}` 
+   4. `{surf}`
 
-[ArchLinux]: http://archlinux.org/
-[`.xinitrc`]: ./home/.xinitrc
-[`.bashrc`]: ./home/.bashrc
-[`.bash_profile`]: ./home/.bash_profile
-[`st`]: https://st.suckless.org/
-[`surf`]: https://surf.suckless.org/
-[`ranger`]: https://ranger.github.io/
 
 ### Sound
 
 Use ALSA instead of pulse-audio  
 
-in [`.xinitrc`]:
+in `{xinitrc}`:
 ```sh
 export ALSA_CARD="Generic"
 ```
@@ -41,7 +41,7 @@ Unfortunately, you can't change the enviroment variables of an already running p
 
 ### APL
 
-Have two settings for APL: in .bashrc and [`.xinitrc`]
+Have two settings for APL: in .bashrc and `{.xinitrc}`
 
 ### Shutdown, Poweroff, Suspend, Hibernate etc.
 
