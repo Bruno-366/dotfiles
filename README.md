@@ -47,3 +47,30 @@ Have two settings for APL: in .bashrc and [`.xinitrc`]
 # use poweroff instead of:
 # alias shutdown="shutdown -P now"
 ```
+
+# Finding modified files
+
+```sh
+pacman -Qkk
+```
+
+For example
+
+```sh
+   : # check which package owns a file
+   : pacman -Qo /etc/i3status.conf
+/etc/i3status.conf is owned by i3status 
+
+   : # If no changes were made:
+   : pacman -Qkk i3status
+i3status: 12 total files, 0 altered files
+
+   : # If some changes were made:
+   : pacman -Qkk i3status
+backup file: i3status: /etc/i3status.conf (Modification time mismatch)
+backup file: i3status: /etc/i3status.conf (Size mismatch)
+backup file: i3status: /etc/i3status.conf (MD5 checksum mismatch)
+backup file: i3status: /etc/i3status.conf (SHA256 checksum mismatch)
+i3status: 12 total files, 0 altered files
+```
+
