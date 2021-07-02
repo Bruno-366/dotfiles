@@ -3,12 +3,12 @@ My dotfiles for [ArchLinux]
 
 ## Desktop Enviroment
 
-0. bash with [`.bashrc`] or [`.bash_profile`]
-1. startx (wrapper around xinit) with file [`.xinitrc`]
+0. login `bash` with [`.bash_profile`]
+1. `startx` (wrapper around `xinit`) with file [`.xinitrc`]
 2. i3wm with file 
-   1. [`st`]
-   2. [`ranger`] 
-   3. [`surf`]
+   1. [`st`] with `bash` using [`.bashrc`] 
+   3. [`ranger`] 
+   4. [`surf`]
 
 [ArchLinux]: http://archlinux.org/
 [`.xinitrc`]: ./home/.xinitrc
