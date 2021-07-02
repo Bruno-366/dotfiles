@@ -18,5 +18,26 @@ My dotfiles for [ArchLinux]
 [`surf`]: https://surf.suckless.org/
 [`ranger`]: https://ranger.github.io/
 
+## Sound
+
 Use ALSA instead of pulse-audio  
-Have two settings for APL: in .bashrc and .xinit
+
+in [`.xinitrc`]:
+```sh
+export ALSA_CARD="Generic"
+```
+sets the default sound output device to the inbuild speakers  
+
+using surf:
+
+```sh
+ALSA_CARD=Generic surf # this becomes redundant, its the implied default
+ALSA_CARD=Headset surf # if you want to use the headset
+```
+
+Unfortunately, you can't change the enviroment variables of an already running process.
+
+## APL
+
+Have two settings for APL: in .bashrc and [`.xinitrc`]
+
