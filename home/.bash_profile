@@ -9,4 +9,3 @@
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then exec startx; fi
 
 source /etc/profile
-alias shutdown="shutdown -P now"
