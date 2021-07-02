@@ -12,12 +12,13 @@ My dotfiles for {ArchLinux}
 
 ## Desktop Enviroment
 
-0. login `bash` shell with `{bash_profile}`
-1. `startx` (wrapper around `xinit`) with file `{xinitrc}`
-2. i3wm with file ???
-   1. `{st}` with non-login `bash` shell using `{bashrc}` 
-   3. `{ranger}` 
-   4. `{surf}`
+[start=0]
+. login `bash` shell with `{bash_profile}`
+. `startx` (wrapper around `xinit`) with file `{xinitrc}`
+. i3wm with file ???
+** `{st}` with non-login `bash` shell using `{bashrc}` 
+** `{ranger}` 
+** `{surf}`
 
 
 ### Sound
@@ -41,7 +42,7 @@ Unfortunately, you can't change the enviroment variables of an already running p
 
 ### APL
 
-Have two settings for APL: in .bashrc and `{.xinitrc}`
+Have two settings for APL: in .bashrc and `{xinitrc}`
 
 ### Shutdown, Poweroff, Suspend, Hibernate etc.
 
