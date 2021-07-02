@@ -19,4 +19,16 @@ My dotfiles for [ArchLinux]
 [`ranger`]: https://ranger.github.io/
 
 Use ALSA instead of pulse-audio  
-Have two settings for APL: in .bashrc and .xinit
+Have two settings for APL: in .bashrc and [`.xinitrc`]
+
+in [`.xinitrc`]
+```sh
+export ALSA_CARD="Generic"
+```
+sets the default sound output device to inbuild speakers  
+using surf
+
+```sh
+ALSA_CARD=Generic surf # this becomes redundant, its the implied default
+ALSA_CARD=Headset surf # if you want to use the headset
+```
