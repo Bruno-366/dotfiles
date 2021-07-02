@@ -42,7 +42,7 @@ Unfortunately, you can't change the enviroment variables of an already running p
 
 ### APL
 
-Have two settings for APL: in .bashrc and `{xinitrc}`
+Add an additional keyboard layout for APL in `{xinitrc}`
 
 ### Shutdown, Poweroff, Suspend, Hibernate etc.
 
