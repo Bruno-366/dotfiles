@@ -12,7 +12,6 @@ xset -b
 # ## END: beep
 
 export ALSA_CARD="Generic"
-#export ALSA_CARD="Headset"
 synclient palmdetect=1
 synclient TapButton1=1 # left click
 synclient TapButton2=3 # right click
