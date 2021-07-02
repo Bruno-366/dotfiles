@@ -3,10 +3,10 @@ My dotfiles for [ArchLinux]
 
 ## Desktop Enviroment
 
-0. login `bash` with [`.bash_profile`]
+0. login `bash` shell with [`.bash_profile`]
 1. `startx` (wrapper around `xinit`) with file [`.xinitrc`]
-2. i3wm with file 
-   1. [`st`] with `bash` using [`.bashrc`] 
+2. i3wm with file ???
+   1. [`st`] with non-login `bash` shell using [`.bashrc`] 
    3. [`ranger`] 
    4. [`surf`]
 
