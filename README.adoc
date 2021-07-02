@@ -25,7 +25,7 @@ My dotfiles for {ArchLinux}
 
 Use ALSA instead of pulse-audio  
 
-in `{xinitrc}`:
+in `{xinitrc}` and `{bash_profile}`:
 ```sh
 export ALSA_CARD="Generic"
 ```
