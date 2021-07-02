@@ -9,3 +9,4 @@
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then exec startx; fi
 
 source /etc/profile
+export ALSA_CARD="Generic"
