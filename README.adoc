@@ -10,7 +10,7 @@
 :vim:              link:https://www.vim.org/[vim]
 :vimrc:            link:./etc/vimrc[vimrc]
 
-link:https://github.com/Bruno-366/dotfiles[image:https://tokei.rs/b1/github/Bruno-366/dotfiles[]]
+link:https://github.com/Bruno-366/dotfiles[image:https://img.shields.io/github/repo-size/bruno-366/dotfiles[GitHub repo size]]
 
 My dotfiles for {ArchLinux}
 
