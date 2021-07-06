@@ -7,6 +7,8 @@
 :st:               link:https://st.suckless.org/[st]
 :surf:             link:https://surf.suckless.org/[surf]
 :ranger:           link:https://ranger.github.io/[ranger]
+:vim:              link:https://www.vim.org/[vim]
+:vimrc:            link:./etc/vimrc[vimrc]
 
 My dotfiles for {ArchLinux}
 
@@ -15,10 +17,11 @@ My dotfiles for {ArchLinux}
 [start=0]
 . login `bash` shell with `{bash_profile}`
 . `startx` (wrapper around `xinit`) with file `{xinitrc}`
-. i3wm with file ???
+.. i3wm with file ???
 ** `{st}` with non-login `bash` shell using `{bashrc}` 
 ** `{ranger}` 
 ** `{surf}`
+. `{vim}` with `{vimrc}`
 
 
 ### Sound
