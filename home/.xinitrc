@@ -1,16 +1,3 @@
-# put it in xinit
-# instead of bashrc
-# to be more deliberate
-xset -b
-
-# in inputrc instead
-#
-# # .bash_profile
-# # for beeps in vim
-#setterm --blength 0 
-
-# ## END: beep
-
 export ALSA_CARD="Generic"
 synclient palmdetect=1
 synclient TapButton1=1 # left click
