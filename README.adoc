@@ -11,6 +11,7 @@
 :vimrc:            link:./etc/vimrc[vimrc]
 
 link:https://github.com/Bruno-366/dotfiles[image:https://img.shields.io/github/repo-size/bruno-366/dotfiles[GitHub repo size]]
+link:https://github.com/Bruno-366/dotfiles[image:https://img.shields.io/github/license/bruno-366/dotfiles[GitHub]]
 
 My dotfiles for {ArchLinux}
 
