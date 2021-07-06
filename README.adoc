@@ -10,6 +10,8 @@
 :vim:              link:https://www.vim.org/[vim]
 :vimrc:            link:./etc/vimrc[vimrc]
 
+link:https://github.com/Bruno-366/dotfiles[image:https://tokei.rs/b1/github/Bruno-366/dotfiles[]]
+
 My dotfiles for {ArchLinux}
 
 ## Desktop Enviroment
