@@ -11,8 +11,3 @@ setxkbmap se,apl -option grp:alt_space_toggle
 eval $(ssh-agent)
 
 exec i3
-
-# inotifywait -qe open /dev/snd/timer
-# xautolock -disable
-# inotifywait -qe close /dev/snd/timer
-# xautolock -enable
