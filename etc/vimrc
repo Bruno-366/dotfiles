@@ -17,7 +17,6 @@ set cursorline
 set nowrap
 set viminfo="/dev/null"
 set ignorecase smartcase
-" set title
 set laststatus=2
 
 " Use CTRL-C instead of ESC to work properly in command-line mode
@@ -25,7 +24,6 @@ noremap fd <C-c>
 noremap! fd <C-c>
 
 let mapleader = " "
-nnoremap <leader>r <C-r>
 
 nnoremap <Leader>s :SemanticHighlightToggle<cr>
 
