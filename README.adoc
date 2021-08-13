@@ -1,5 +1,6 @@
 # dotfiles
 :toc: preamble
+:experimental:
 :ArchLinux:        link:http://archlinux.org/[ArchLinux]
 :xinitrc:          link:./home/.xinitrc[.xinitrc]
 :bashrc:           link:./home/.bashrc[.bashrc]
@@ -51,15 +52,15 @@ Unfortunately, you can't change the enviroment variables of an already running p
 
 Add an additional keyboard layout for APL in `{xinitrc}`
 
-### Ergonomics
+### Keyboard Ergonomics
 
-In xorg, use capslock as CTRL, defined in `{xinitrc}`
+In xorg, use kbd:[capslock] as kbd:[CTRL], defined in `{xinitrc}`
 
 ```sh
 setxkbmap -option caps:ctrl_modifier
 ```
 
-In vim, use fd instead of CTRL-C or ESC, defined in `{vimrc}`
+In vim, use kbd:[fd] instead of kbd:[CTRL+C] or kbd:[ESC], defined in `{vimrc}`
 
 ```vim
 noremap fd <C-c>
