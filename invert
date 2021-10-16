@@ -1,0 +1,8 @@
+/* I think it applies the effect to everything once (html),
+ * then again to img and video, hence reversing the effect.
+ * This way is far quicker than using the :not() selector.
+*/
+html, img, video { -webkit-filter: invert(95%) hue-rotate(180deg); }
+/*
+ * Apply to .mwe-math-element for equations in wikipedia
+ */
