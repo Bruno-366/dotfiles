@@ -11,3 +11,4 @@ LS_COLORS="$LS_COLORS:*.kdbx=00;35"
 alias ffplay="ffplay -v 16 -autoexit"
 alias sxiv="sxiv -p -a"
 alias suspend="systemctl suspend"
+surf () { command surf ${1:-https://duckduckgo.com}; }  # Set homepage for surf
