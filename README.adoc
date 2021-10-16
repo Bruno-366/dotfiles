@@ -10,6 +10,7 @@
 :ranger:           link:https://ranger.github.io/[ranger]
 :vim:              link:https://www.vim.org/[vim]
 :vimrc:            link:./etc/vimrc[vimrc]
+:defaultcss:      link:./.surf/styles/default.css[default.css]
 
 link:https://github.com/Bruno-366/dotfiles[image:https://img.shields.io/github/repo-size/bruno-366/dotfiles[GitHub repo size]]
 link:https://github.com/Bruno-366/dotfiles[image:https://img.shields.io/github/license/bruno-366/dotfiles[GitHub]]
@@ -25,7 +26,7 @@ My dotfiles for {ArchLinux}
 .. i3wm with file ???
 ** `{st}` with non-login `bash` shell using `{bashrc}` 
 ** `{ranger}` 
-** `{surf}`
+** `{surf}` with file `{defaultcss}`
 . `{vim}` with `{vimrc}`
 
 
