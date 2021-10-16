@@ -26,7 +26,7 @@ My dotfiles for {ArchLinux}
 .. i3wm with file ???
 ** `{st}` with non-login `bash` shell using `{bashrc}` 
 ** `{ranger}` 
-** `{surf}` with file `{defaultcss}`
+** `{surf}` with file `{defaultcss}` and `{bashrc}`
 . `{vim}` with `{vimrc}`
 
 
@@ -38,7 +38,7 @@ in `{xinitrc}` and `{bash_profile}`:
 ```sh
 export ALSA_CARD="Generic"
 ```
-sets the default sound output device to the inbuild speakers  
+sets the default sound output device to the inbuilt speakers  
 
 using surf:
 
@@ -48,6 +48,16 @@ ALSA_CARD=Headset surf # if you want to use the headset
 ```
 
 Unfortunately, you can't change the enviroment variables of an already running process.
+This means that if you want to change sound output from the inbuilt speakers to headsets,
+you would have to start a new process.
+
+### Surf
+
+The file `{defaultcss}` will be default make everywebpage have inverted colors.
+This is a crude form of dark/night mode that works really well.
+If a page already has a dark theme, then turn off the inversion with kbd:[CTRL+Shift+m].
+
+`{bashrc}` aliases `surf` so that if the command is run with empty args, it will use link:duckduckgo.com[] by default. 
 
 ### APL
 
