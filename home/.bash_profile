@@ -9,4 +9,9 @@
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then exec startx; fi
 
 source /etc/profile
-export ALSA_CARD="Generic"
+
+alias ffplay="ffplay -v 16 -autoexit -nodisp"
+alias suspend="systemctl suspend"
+
+export ALSA_CARD=Generic                        # Set default sound output
+export LS_COLORS="$LS_COLORS:*.kdbx=00;35"      # Add color to KeePass files on ls output
